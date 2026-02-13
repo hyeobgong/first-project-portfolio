@@ -7,28 +7,28 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-<body class="bg-gray-50 text-gray-800">
+<body style="background-color: #FFFBEB; color: #3F3F46;">
 
-    <nav class="bg-white shadow-sm sticky top-0 z-50">
+    <nav style="background-color: #FFFBEB; box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);" class="sticky top-0 z-50">
         <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-            <h1 class="text-xl font-bold text-blue-600 tracking-tight">PORTFOLIO</h1>
+            <h1 class="text-xl font-bold tracking-tight" style="color: #D97706;">PORTFOLIO</h1>
             <div class="space-x-6 text-sm font-medium">
-                <a href="#about" class="hover:text-blue-500 transition">소개</a>
-                <a href="#experience" class="hover:text-blue-500 transition">경력</a>
-                <a href="#contact" class="hover:text-blue-500 transition">연락처</a>
+                <a href="#about" style="color: #3F3F46;" class="transition hover:text-opacity-70">소개</a>
+                <a href="#experience" style="color: #3F3F46;" class="transition hover:text-opacity-70">경력</a>
+                <a href="#contact" style="color: #3F3F46;" class="transition hover:text-opacity-70">연락처</a>
             </div>
         </div>
     </nav>
 
-    <header id="about" class="bg-white py-20 border-b">
+    <header id="about" class="py-20" style="background-color: #FFFBEB; border-bottom: 1px solid #E5D4B8;">
         <div class="max-w-6xl mx-auto px-4 text-center">
-            <h2 class="text-4xl font-extrabold mb-4">창의적인 문제 해결사, [성함 입력]입니다</h2>
-            <p class="text-lg text-gray-600 max-w-2xl mx-auto mb-8">
+            <h2 class="text-4xl font-extrabold mb-4" style="color: #92400E;">창의적인 문제 해결사, [성함 입력]입니다</h2>
+            <p class="text-lg max-w-2xl mx-auto mb-8" style="color: #666666;">
                 LED 제작부터 웹 개발까지, 기술과 소통을 결합하여 가치를 만들어냅니다.
             </p>
             <div class="flex justify-center space-x-4">
-                <a href="mailto:your-email@example.com" class="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition">메일 보내기</a>
-                <a href="https://github.com/your-id" target="_blank" class="bg-gray-800 text-white px-6 py-3 rounded-lg font-semibold hover:bg-gray-900 transition flex items-center">
+                <a href="mailto:your-email@example.com" class="text-white px-6 py-3 rounded-lg font-semibold transition flex items-center" style="background-color: #FBBF24;" onmouseover="this.style.opacity='0.9'" onmouseout="this.style.opacity='1'">메일 보내기</a>
+                <a href="https://github.com/your-id" target="_blank" class="text-white px-6 py-3 rounded-lg font-semibold transition flex items-center" style="background-color: #D97706;" onmouseover="this.style.opacity='0.9'" onmouseout="this.style.opacity='1'">
                     <i class="fab fa-github mr-2"></i> GitHub
                 </a>
             </div>
@@ -40,41 +40,41 @@
             <h3 class="text-3xl font-bold mb-12 text-center">핵심 역량 및 경력</h3>
             
             <div class="grid md:grid-cols-3 gap-8">
-                <div class="bg-white p-8 rounded-2xl shadow-lg border hover:border-blue-500 transition-all group">
-                    <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mb-6">
+                <div class="p-8 rounded-2xl shadow-lg transition-all group" style="background-color: white; border: 1px solid #E5D4B8; border-left: 4px solid #D97706;">
+                    <div class="w-12 h-12 rounded-lg flex items-center justify-center mb-6" style="background-color: #FED7AA; color: #D97706;">
                         <i class="fas fa-lightbulb text-2xl"></i>
                     </div>
-                    <h4 class="text-xl font-bold mb-3">LED 주문제작</h4>
-                    <p class="text-gray-600 mb-6 text-sm leading-relaxed">
+                    <h4 class="text-xl font-bold mb-3" style="color: #92400E;">LED 주문제작</h4>
+                    <p class="mb-6 text-sm leading-relaxed" style="color: #666666;">
                         정밀한 하드웨어 설계와 고객 맞춤형 제작을 통해 고품질 LED 솔루션을 제공합니다.
                     </p>
-                    <a href="project-led.html" class="text-blue-600 font-semibold flex items-center group-hover:underline">
+                    <a href="project-led.html" class="font-semibold flex items-center group-hover:underline" style="color: #D97706;">
                         상세보기 <i class="fas fa-arrow-right ml-2 text-xs"></i>
                     </a>
                 </div>
 
-                <div class="bg-white p-8 rounded-2xl shadow-lg border hover:border-green-500 transition-all group">
-                    <div class="w-12 h-12 bg-green-100 text-green-600 rounded-lg flex items-center justify-center mb-6">
+                <div class="p-8 rounded-2xl shadow-lg transition-all group" style="background-color: white; border: 1px solid #E5D4B8; border-left: 4px solid #FBBF24;">
+                    <div class="w-12 h-12 rounded-lg flex items-center justify-center mb-6" style="background-color: #FEE3A3; color: #FBBF24;">
                         <i class="fas fa-users text-2xl"></i>
                     </div>
-                    <h4 class="text-xl font-bold mb-3">협업 및 커뮤니케이션</h4>
-                    <p class="text-gray-600 mb-6 text-sm leading-relaxed">
+                    <h4 class="text-xl font-bold mb-3" style="color: #92400E;">협업 및 커뮤니케이션</h4>
+                    <p class="mb-6 text-sm leading-relaxed" style="color: #666666;">
                         다양한 이해관계자와의 원활한 소통을 통해 프로젝트 목표를 효율적으로 달성합니다.
                     </p>
-                    <a href="project-collab.html" class="text-green-600 font-semibold flex items-center group-hover:underline">
+                    <a href="project-collab.html" class="font-semibold flex items-center group-hover:underline" style="color: #FBBF24;">
                         상세보기 <i class="fas fa-arrow-right ml-2 text-xs"></i>
                     </a>
                 </div>
 
-                <div class="bg-white p-8 rounded-2xl shadow-lg border hover:border-purple-500 transition-all group">
-                    <div class="w-12 h-12 bg-purple-100 text-purple-600 rounded-lg flex items-center justify-center mb-6">
+                <div class="p-8 rounded-2xl shadow-lg transition-all group" style="background-color: white; border: 1px solid #E5D4B8; border-left: 4px solid #92400E;">
+                    <div class="w-12 h-12 rounded-lg flex items-center justify-center mb-6" style="background-color: #E5C8B0; color: #92400E;">
                         <i class="fas fa-code text-2xl"></i>
                     </div>
-                    <h4 class="text-xl font-bold mb-3">웹 개발</h4>
-                    <p class="text-gray-600 mb-6 text-sm leading-relaxed">
+                    <h4 class="text-xl font-bold mb-3" style="color: #92400E;">웹 개발</h4>
+                    <p class="mb-6 text-sm leading-relaxed" style="color: #666666;">
                         사용자 중심의 UI/UX와 안정적인 코드를 바탕으로 현대적인 웹 서비스를 구축합니다.
                     </p>
-                    <a href="project-web.html" class="text-purple-600 font-semibold flex items-center group-hover:underline">
+                    <a href="project-web.html" class="font-semibold flex items-center group-hover:underline" style="color: #92400E;">
                         상세보기 <i class="fas fa-arrow-right ml-2 text-xs"></i>
                     </a>
                 </div>
@@ -82,15 +82,15 @@
         </div>
     </section>
 
-    <footer id="contact" class="bg-gray-900 text-white py-12">
+    <footer id="contact" class="text-white py-12" style="background-color: #92400E;">
         <div class="max-w-6xl mx-auto px-4 text-center">
             <h3 class="text-2xl font-bold mb-6">함께 일하고 싶으신가요?</h3>
-            <p class="text-gray-400 mb-8">제 포트폴리오를 검토해 주셔서 감사합니다. 아래 정보를 통해 연락 주시기 바랍니다.</p>
+            <p class="mb-8" style="color: #E5D4B8;">제 포트폴리오를 검토해 주셔서 감사합니다. 아래 정보를 통해 연락 주시기 바랍니다.</p>
             <div class="space-y-2 text-sm">
                 <p><i class="fas fa-envelope mr-2"></i> email@example.com</p>
                 <p><i class="fab fa-github mr-2"></i> github.com/your-id</p>
             </div>
-            <p class="mt-12 text-xs text-gray-500">&copy; 2026 Your Name. All rights reserved.</p>
+            <p class="mt-12 text-xs" style="color: #D9BFA5;">&copy; 2026 Your Name. All rights reserved.</p>
         </div>
     </footer>
 
